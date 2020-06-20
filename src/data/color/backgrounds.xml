@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<COLOR_LIBRARY>
+	<palette title="bg-starter-set">
+		<color>0xCCCCCC</color>
+		<color>0x78735B</color>
+		<color>0x6F5847</color>
+		<color>0x000000</color>
+		<color>0x0F0F0F</color>
+		<color>0x333333</color>
+		<color>0x2B3050</color>
+		<color>0x460D55</color>
+		<color>0xE2DEC9</color>
+		<color>0x4A5964</color>
+		<color>0x777777</color>
+		<color>0xFFFFFF</color>
+		
+			<color>0x2857AE</color>
+			<color>0x467F8C</color>
+			<color>0x48AA70</color>
+			<color>0x435F2B</color>
+			<color>0x24420E</color>
+			<color>0xACDB93</color>
+			<color>0x559BCE</color>
+			<color>0x2B455B</color>
+			<color>0xE3BC75</color>
+			<color>0x9FC447</color>
+			<color>0x3A337F</color>
+			<color>0x3E5892</color>
+	</palette>	
+</COLOR_LIBRARY>

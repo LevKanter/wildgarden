@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!-- 
+These are the core configurations for your composition
+-->
+<WG_CONFIG>
+	
+	<!-- The title of your composition -->
+	<TITLE>WildComp</TITLE>
+	
+	<INIT>
+		<!-- sketch starts out in which scene -->
+		<!-- "which" attribute: "1" is "Painting", "2" is "Showcase" -->
+		<scene which="2" paused="true"/>		
+	</INIT>
+	
+	<WIIMOTE>
+		<!-- OSC port -->
+		<port incoming="12345" outgoing="23456"/>
+		
+		<!-- incoming OSC address patterns -->
+		<addressSpace id="/osculator/wii/1">
+			<!-- buttons -->
+			<home>/wii/1/button/Home</home>
+			<A>/wii/1/button/A</A>
+			<B>/wii/1/button/B</B>
+			<1>/wii/1/button/1</1>
+			<2>/wii/1/button/2</2>
+			<minus>/wii/1/button/Minus</minus>
+			<plus>/wii/1/button/Plus</plus>
+			<up>/wii/1/button/Up</up>
+			<down>/wii/1/button/Down</down>
+			<left>/wii/1/button/Left</left>
+			<right>/wii/1/button/Right</right>
+
+			<!-- IR tracking -->
+			<x>/wii/1/ir/0</x>
+			<y>/wii/1/ir/1</y>
+
+			<!-- accelerometer -->
+			<pitch>/wii/1/accel/pry/0</pitch>
+			<roll>/wii/1/accel/pry/1</roll>
+			<yaw>/wii/1/accel/pry/2</yaw>
+			<accel>/wii/1/accel/pry/3</accel>
+		</addressSpace>
+	</WIIMOTE>	
+	
+	<!-- relative paths are relative to sketch folder (NOT data folder) -->
+	<PATHS>
+		<!-- path where screenshots can be saved -->
+		<screenshot>doc/userScreenGrabs/</screenshot>
+		
+		<!-- path to XML file that stores paths to existing screenshots -->
+		<screenshotInfo>config/userScreenGrabs.xml</screenshotInfo>
+	</PATHS>
+	
+</WG_CONFIG>
